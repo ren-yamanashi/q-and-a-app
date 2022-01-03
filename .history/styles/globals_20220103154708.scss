@@ -1,0 +1,18 @@
+@import '~bootstrap/scss/bootstrap'; //Bootstrap を導入して CSS を書かなくても良い状況を作る
+@import '~react-toastify/dist/ReactToastify.css'; // 完了メッセージを変えるためのインポート
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
